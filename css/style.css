@@ -1,0 +1,118 @@
+/* LOGO */
+.logolk,.logo1,.logo2,.logo3,.logo4,.logo5,.logo6  {
+    width: 100px;
+    height: 100px;
+}
+
+
+/* TIPOGRAFÍA */
+
+@font-face {
+    font-family: "FiraSans-BoldItalic" ;
+    src: url("../Fonts/FiraSans-BoldItalic.otf");
+}
+
+@font-face {
+    font-family: "Quicksand-Regular";
+    src: url("../Fonts/Quicksand-Regular.otf");
+}
+
+.FiraSans {
+     font-family: "FiraSans-BoldItalic", cursive;
+     font-size: 100px;
+}
+
+.Quicksand {
+    font-family: "Quicksand-Regular", regular;
+    font-size: 50px;
+}
+
+h1 {
+    font-family: FiraSans-BoldItalic ;
+    font-size: 70px;
+    color:white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+img {
+    text-align: center
+}
+
+p {
+    font-family: "Quicksand-Regular" ;
+    font-size: 26px;
+    text-align: justify;
+    text-decoration: none;
+    color: white;
+
+}
+
+a {
+    font-family: "Quicksand-Regular" ;
+    font-size: 20px;
+    text-align: justify;
+    text-decoration: none;
+    color: white;
+}
+
+.containerflex {
+    display: flex center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+#grid-container {
+    display: grid;
+    grid-template-areas: 
+    "lkfotoportada lkfotoportada"
+    "lkfotoportada1 lkfotoportada2";
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 400px 400px;
+    width: 1000px;
+    column-gap: 10px;
+    row-gap: 10px;
+    
+}
+
+#grid-container div img {
+    width: 100%;
+}
+
+
+body {
+    background-color: black;
+}
+
+.pablo {
+    width: 100px;
+    height: 80px;
+}
+
+.nelson {
+    width: 100px;
+    height: 100px;
+}
+
+.diego {
+    width: 100px;
+    height: 80px;
+}
+
+/* ANCHO Y ALTO */
+
+/* FOOTER */
+#Instagram {
+    width: 50px;
+    height: 50px;
+   
+}
+#Youtube {
+    width: 50px;
+    height: 50px;
+    
+}
+
+
+/* VISTA DESKTOP */
