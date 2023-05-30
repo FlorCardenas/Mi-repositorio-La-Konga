@@ -40,6 +40,15 @@ h1 {
     margin-top: 50px;
 }
 
+#pablo , #nelson , #diego {
+    font-family: FiraSans-BoldItalic ;
+    font-size: 40px;
+    color:white;
+    text-align: justify;
+    margin-top: 50px;
+}
+
+
 #datosform {
     font-family: FiraSans-BoldItalic ;
     font-size: 30px;
@@ -55,6 +64,19 @@ img {
     height: 400px;
     
 }
+
+#fotodelabanda1 , #fotodelabanda2 {
+    width:auto;
+    height:auto;
+
+}
+    
+
+#fotohistoria {
+    width: auto;
+    height: auto;
+}
+
 
 p {
     font-family: "Quicksand-Regular" ;
@@ -97,18 +119,18 @@ body {
 }
 
 .pablo {
-    width: 100px;
-    height: 80px;
+    width: 200px;
+    height: 200px;
 }
 
 .nelson {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 }
 
 .diego {
-    width: 100px;
-    height: 80px;
+    width: 200px;
+    height: 200px;
 }
 
 /* FOOTER */
