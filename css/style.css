@@ -45,7 +45,8 @@ h1 {
     font-size: 40px;
     color:white;
     text-align: justify;
-    margin-top: 50px;
+    margin: 20px 50px 20px 20px;
+    padding: 10px;
 }
 
 
@@ -55,9 +56,6 @@ h1 {
     color:white;
 }
 
-img {
-    text-align: center
-}
 
 #fotodelos3 {
     width: 600px;
@@ -101,7 +99,7 @@ a {
     justify-content: center;
 }
 
-
+/*
 #grid-container div img {
     display: grid;
     grid-template-areas: 
@@ -113,27 +111,23 @@ a {
     column-gap: 10px;
     row-gap: 10px;
 }
-
+*/
 body {
     background-color: black;
 }
 
-.pablo {
+.imgIntegrantes{
+
     width: 200px;
     height: 200px;
 }
-
-.nelson {
-    width: 200px;
-    height: 200px;
-}
-
-.diego {
-    width: 200px;
-    height: 200px;
-}
-
 /* FOOTER */
+
+#footer{
+    display: inline-block;
+    align-items: center;
+}
+
 #Instagram {
     width: 50px;
     height: 50px;
@@ -150,7 +144,8 @@ body {
     height: 50px;
 }
 
-/* VISTA DESKTOP */
+
+/* VISTA DESKTOP 
 .gridContainer {
     display: grid;
     grid-template-areas:
@@ -161,37 +156,69 @@ body {
         "footer footer";
     grid-template-columns: 50% 50%;
     grid-template-rows: 100px 100px auto 1fr 100px;
-}
+}*/
 
-header {
-    grid-area: header;
+.nav {
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
+    align-items: center;
 }
 
-div.navIzq {
-    grid-area: navIzq;
-}
-
-div.navDer {
-    grid-area: navDer;
-}
-
-.navIzq ul,
-.navDer ul {
-    display: flex;
-    justify-content: space-around;
-}
-
-li {
+.nav a{
     padding: 10px;
-    list-style-type: none;
+    margin: 5px;
 }
 
-div.navDer {
-    grid-area: navDer;
+#imgIndex{
+    display: flex;
+    flex-direction: row;
 }
 
+#imgIndex img{
+    width: 50%;
+    margin: 10px;
+    padding: 5px;
+}
+
+.Texto{
+    text-align: center;
+}
+
+#card{
+align-items: center;
+}
+
+#card img h2 p{
+    margin: 5px;
+}
+
+.card-group{
+    margin: 10px;
+}
+
+
+@media (max-width: 750px) {
+    #imgIndex{
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+}
+@media (max-width: 1020px){
+    .portada img{
+        width: 90%;
+        align-items: center;
+    }
+}
+
+@media (max-width: 910px){
+    .nav div{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/*
 @media only screen and (min-width: 768px) {
     .gridContainer {
         display: grid;
@@ -210,4 +237,4 @@ div.navDer {
         position: relative;
         top: 20px;
     }
-}
+}*/
